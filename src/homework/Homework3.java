@@ -5,24 +5,6 @@ import java.sql.SQLOutput;
 public class Homework3 {
 
     public static void main(String[] args) {
-        /**
-         *
-         * Due date: Mar 8 2022
-         *
-         * Refer for formula: https://www.rapidtables.com/convert/temperature/celsius-to-fahrenheit.html
-         *
-         * C -> F
-         * C -> K
-         *
-         * F -> C
-         * F -> K
-         *
-         * K -> C
-         * K -> F
-         *
-         */
-
-
 
 
         /**
@@ -79,12 +61,6 @@ public class Homework3 {
 
         farenheit = (kelvin) * 9/5 - 459.67;
         System.out.println("\nConverted temperature from Kelvin to Farenheit is : " + farenheit+"˚");
-
-
-
-
-
-
 
 
 
