@@ -48,45 +48,83 @@ public class TestCasesClubsScholastic {
 
 
         /**
-         * Wish List
+         * Feature: Validating Wish List
          *
-         * Scenarion: Teacher can add a books into the wish list
+         * 1. Scenarion: Teacher can add a book into the wish list from top next to Name
          *
-         * Scenario: Teacher can create wish list from top next to Name or by clicking on add books button in the the wish list
+         *      Given: I am on "https://clubs.scholastic.com/home
+         *      When:  I sign in as a teacher with username 'abcg@gmail.com' and password 'abc12345'
+         *         And: I click on down button next to my name
+         *         And: I click on classroom wish list from my list
+         *         And: I click on any books from the suggestion list
+         *         And: I click on add to wish list from right next to short summary
+         *         And: I select Classroom Wish List from my wish list pop up
+         *         And: I select desired quantity
+         *      Then: I verify that correct book and quantity is added to my wish list
          *
-         * Scenario: Teacher can add desired books to the wish list by selecting books using search box
+         * 2. Scenario: Teacher can create wish list or by clicking on add books button in the the wish list
          *
-         * Scenario: Teacher can add listed book to his/her cart
+         *    Given: I am on "https://clubs.scholastic.com/home
+         *    When : I sign in as a teacher with username 'abcg@gmail.com' and password 'abc12345'
+         *        And: I click on add books from Class Room Wish List below share now button
+         *        And: I click on any book from suggestion list
+         *        And: I click on add to wish list from right next to short summary
+         *        And: I select Classroom Wish List from my wish list pop up
+         *        And: I select desired quantity
+         *   Then: I verify that correct book and quantity is added to my wish list
          *
-         * Scenario: Teacher Teacher Can delete book from the wish list
          *
-         * Scenario: Teacher can move books from the wishlist to the options available
+         * 3. Scenario: Teacher can add desired books to the wish list by selecting books using search box
          *
-         * Scenario: Teacher can add books to wish list from suggestions of books
+         *  Given: I am on "https://clubs.scholastic.com/home
+         *  When : I sign in as a teacher with username 'abcg@gmail.com' and password 'abc12345'
+         *      And: I click on add books from Class Room Wish List below share now button
+         *      And: I click on any book from suggestion list
+         *      And: I click on add to wish list from right next to short summary
+         *      And: I select Classroom Wish List from my wish list pop up
+         *      And: I select desired quantity
+         * Then: I verify that correct book and quantity is added to my wish list using search box
          *
-         * Scenario: Teacher can add any quantity of books/book in the wish list
+         * 4.Scenario: Teacher can add listed book to his/her cart
          *
-         * Scenario: Teacher can add a note for the wish listed book
+         * Given: I am on "https://clubs.scholastic.com/home
+         * When : I sign in as a teacher with username 'abcg@gmail.com' and password 'abc12345'
+         *     And: I click on add books from Class Room Wish List below share now button
+         *     And: I click on any book from suggestion list
+         *     And: I click on add to wish list from right next to short summary
+         *     And: I select Classroom Wish List from my wish list pop up
+         *     And: I select desired quantity
+         * Then: I verify that I can add listed books to the cart
          *
-         * Scenario: Teacher can edit the note for the listed book
+         * 5. Scenario: Teacher Teacher Can delete book from the wish list
          *
-         * Scenario: Wish listed items and quantity and prices is displayed correctly
+         * 6. Scenario: Teacher can move books from the wishlist to the options available
          *
-         * Scenario: Teacher is able to preview the wish list
+         * 7. Scenario: Teacher can add books to wish list from suggestions of books
          *
-         * Scenario: Teacher is able to on or off for the publication option of the wish list
+         * 8. Scenario: Teacher can add any quantity of books/book in the wish list
          *
-         * Scenario: Teacher is able to change the quantity of the listed item
+         * 9. Scenario: Teacher can add a note for the wish listed book
          *
-         * Scenario: Teacher is able to delete a listed item by changing quantity to 0
+         *10. Scenario: Teacher can edit the note for the listed book
          *
-         * Scenario: Teacher is able to delete/keep books by selecting Yes/No option from the pop up displayed after selecting delete option
+         *11. Scenario: Wish listed items and quantity and prices is displayed correctly
          *
-         * Scenario: When Teacher selects 0 quantity it should pop up with Yes and No option
+         *12. Scenario: Teacher is able to preview the wish list
          *
-         * Scenario: Teacher is able to move to wish list and select quantity from save later list
+         *13. Scenario: Teacher is able to on or off for the publication option of the wish list
          *
-         * Scenario: Teacher is able to move to wish list and can select quantity from recommended list
+         *14. Scenario: Teacher is able to change the quantity of the listed item
+         *
+         *15. Scenario: Teacher is able to delete a listed item by changing quantity to 0
+         *
+         *16. Scenario: Teacher is able to delete/keep books by selecting Yes/No option from the pop up displayed after selecting delete option
+         *
+         *17. Scenario: When Teacher selects 0 quantity it should pop up with Yes and No option
+         *
+         *18. Scenario: Teacher is able to move to wish list and select quantity from save later list
+         *
+         *19. Scenario: Teacher is able to move to wish list and can select quantity from recommended list
          *
          *
          *
