@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d696e4bc-bdd1-46f4-996c-5ad8ce8b7213" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/homework/HomeWork_6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Repo_Java_2022/homework/Homework4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Repo_Java_2022/homework/Homework4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/Classwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/Classwork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/Homework4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/Homework4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/Homework5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/Homework5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/Homework6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/Homework6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/PracticeSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/PracticeSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string_study/MethodStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string_study/MethodStudy.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,33 +28,51 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="20" />
+          <entry key="java" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="20" />
+          <entry key="JAVA" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="15363" />
+          <entry key="java" value="15381" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15363" />
+          <entry key="JAVA" value="15381" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homework/Homework6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="103" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="2145">
+              <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/homework/HomeWork6New.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="114" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="114" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/homework/HomeWork_6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -97,15 +108,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homework/Homework4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homework/Classwork.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -119,15 +121,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="296">
               <caret line="21" column="7" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="21" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homework/HomeWork1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -178,6 +171,8 @@
         <option value="$PROJECT_DIR$/src/homework/PracticeSession.java" />
         <option value="$PROJECT_DIR$/src/homework/Homework5.java" />
         <option value="$PROJECT_DIR$/src/homework/Homework6.java" />
+        <option value="$PROJECT_DIR$/src/homework/HomeWork6New.java" />
+        <option value="$PROJECT_DIR$/src/homework/HomeWork_6.java" />
       </list>
     </option>
   </component>
@@ -222,7 +217,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1648160629047" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1648161119411" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -239,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HomeWork6New">
+  <component name="RunManager" selected="Application.HomeWork_6">
     <configuration name="HomeWork6New" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.HomeWork6New" />
       <module name="Repo_Java_2022" />
@@ -253,8 +248,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Homework4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.Homework4" />
+    <configuration name="HomeWork_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.HomeWork_6" />
       <module name="Repo_Java_2022" />
       <extension name="coverage">
         <pattern>
@@ -306,19 +301,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Homework4" />
       <item itemvalue="Application.Homework5" />
       <item itemvalue="Application.Homework6" />
       <item itemvalue="Application.MethodStudy" />
       <item itemvalue="Application.HomeWork6New" />
+      <item itemvalue="Application.HomeWork_6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeWork_6" />
         <item itemvalue="Application.HomeWork6New" />
         <item itemvalue="Application.Homework5" />
         <item itemvalue="Application.Homework6" />
         <item itemvalue="Application.MethodStudy" />
-        <item itemvalue="Application.Homework4" />
       </list>
     </recent_temporary>
   </component>
@@ -337,8 +332,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553648" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553648" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -352,7 +348,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28376535" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28376535" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -452,8 +448,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/homework/Homework6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        <state relative-caret-position="2145">
+          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework/HomeWork6New.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="114" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework/HomeWork_6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
