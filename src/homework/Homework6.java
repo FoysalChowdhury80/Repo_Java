@@ -19,6 +19,7 @@ public class Homework6 {
          *      split, subString, toUppercase
          *
          */
+
         System.out.println("\n.......Homework 6.........");
         System.out.println("\n.......01.........");
         String sentence1 = "happy birthday to you dear friend ";
@@ -41,6 +42,7 @@ public class Homework6 {
          * happy birthday to you -> you to birthday happy
          *
          */
+
         System.out.println("\n.......02.........");
         String statement = "make america great again";
         String[] words1 = statement.split(" ");
@@ -62,6 +64,7 @@ public class Homework6 {
          * happy birTHday TO yOu -> Happy Birthday To You
          *
          */
+
         System.out.println("\n.......03.........");
 
         String statement2 = "make america great again";
@@ -85,6 +88,7 @@ public class Homework6 {
          * int[] numbers = {1, 21, 87, 23};     -> 1
          * int[] numbers = {87, 23, 89, 0, 54, 23}; -> 0
          */
+
         System.out.println("\n.......04.........");
         int[] numbers = {87, 23, 89, 0, 54, 23};
         int min = numbers[0];
@@ -95,5 +99,39 @@ public class Homework6 {
             }
         }
         System.out.println("\n The Minimum value is : " +min);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
