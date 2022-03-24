@@ -106,7 +106,7 @@ public class Homework5 {
 
         System.out.println("\n04");
 
-        int num = 32;
+        int num = 30;
 
         if (num % 5 == 0) {
             System.out.println("\ndivisible by 5");
@@ -179,7 +179,7 @@ public class Homework5 {
          */
 
         System.out.println("\n06");
-        String[] words_N = {"healthy", "speak", "learning", "king", "Joy", "smile", "learn", "live" , "give", "living standard"};
+        String[] words_N = {"healthy", "speak", "learning", "king", "Joy", "smile", "learn", "live", "give", "living standard"};
 
         /**
          * Need to get words
@@ -188,17 +188,59 @@ public class Homework5 {
          */
 
 
-        for (int i = 0; i < words_N.length; i++){
+        for (int i = 0; i < words_N.length; i++) {
             if (words_N[i].length() > 5
-                              &&
-               words_N[i].toLowerCase().startsWith("l".toLowerCase())){
-                System.out.println("\nWords that starts with 'l' and has more than Five letters are : "+words_N[i]);
+                    &&
+                    words_N[i].toLowerCase().startsWith("l".toLowerCase())) {
+                System.out.println("\nWords that starts with 'l' and has more than Five letters are : " + words_N[i]);
             }
         }
 
 
+        /**
+         * Store the marks in an int[] if marks[i]>=90
+         */
+        int[] marks = {80, 85, 90, 95, 96};
+
+        int l = 0;
+        int[] myMarks;
+
+        while (marks[l] >= 90)
+            l++;
+
+
+        myMarks = new int[l];
+
+        for (int i = 0; i < l; i++)
+            myMarks[i] = marks[i];
+
+
+        System.out.println(Arrays.toString(myMarks));
+
+
+        /**
+         * int[] array_nums = {11, 15, 13, 10, 45, 20, 33, 53};
+         *     int result = 0;
+         * 	System.out.println("Original Array: "+Arrays.toString(array_nums));
+         *
+         *     int l = 0;
+         *     int[] new_array;
+         * 	while(array_nums[l]!=10)
+         *     l++;
+         *     new_array =new int[l];
+         * 	for(
+         *     int i = 0;
+         *     i<l;i++)
+         *     new_array[i]=array_nums[i];
+         * 	System.out.println("New Array: "+Arrays.toString(new_array));
+         */
+
+
     }
+
+
 }
+
 
 
 

@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
 public class oop {
+
+    String name, gender;
+    int phone;
 }

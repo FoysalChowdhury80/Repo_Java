@@ -1,5 +1,7 @@
 package homework;
 
+import javax.sound.midi.Soundbank;
+
 public class Homework4 {
     public static void main(String[] args) {
 
@@ -95,6 +97,186 @@ public class Homework4 {
         String taskFourtoLowerCase = task4.toLowerCase();
         String toTitlecase = taskFourtoLowerCase.substring(0,1).toUpperCase() + taskFourtoLowerCase.substring(1);
         System.out.println("\n'Task-4' \nThe titlecase of task 4 is: " + toTitlecase);
+
+
+        /**
+         *
+         * 1.Create a String variable and assign value 'I am a Good progRammer'
+         * 2. Find the length of the String
+         * 3. Check the String contains 'Am'
+         * 4. Convert the String to TitleCase
+         * 5. Find the Index of 'am'
+         * 6. Does the Sring ends with 'er'?
+         * 7. Find the number of words in the String.
+         *
+         */
+
+        System.out.println("\n\n.....Practice......");
+
+        String sentence2 = "I am a Good progRammer";
+        int lengthOfSentence2 = sentence2.length();
+
+        System.out.println("\nLength of sentence2 is " + lengthOfSentence2);
+
+
+        String contains_am = "Am";
+        boolean doesSentence2Contain_Am = sentence2.toLowerCase().contains(contains_am.toLowerCase());
+
+        System.out.println("\nSentence2 contain 'am' is " + doesSentence2Contain_Am);
+
+        String titleCaseSentence2 = sentence2.substring(0,1).toUpperCase()+sentence2.substring(1).toLowerCase();
+        System.out.println(titleCaseSentence2);
+
+        String istringndex_am = "am";
+        int index_am = sentence2.toLowerCase().indexOf(istringndex_am.toLowerCase());
+        System.out.println(index_am);
+
+        String ends_er = "er";
+        boolean endsWith_er = sentence2.toLowerCase().endsWith(ends_er.toLowerCase());
+        System.out.println(endsWith_er);
+
+        String[] words = sentence1.split(" ");
+        int noOfWords = words.length;
+        System.out.println(noOfWords);
+
+
+        /**
+         * name of school is "Plank North Elementary School"
+         * there is five classes in that school
+         * My daughtrer studies in grade 2
+         * Grade 2 has 20 students.
+         * Michelle, Juliana, Jacob, Landon are some good friends of my daughter
+         * Their teacher said if there is no rain tomorrow they will go outside
+         *   or if it is snowing they will wear snow suit
+         *       otherwise they will play indoor
+         *
+         */
+
+        System.out.println("...Exercise.....");
+
+        String nameOfSchool = "Plank North Elementary School";
+        System.out.println("Name of school is: "+ nameOfSchool);
+        int numberOFClass = 5;
+        System.out.println("number of classes are :"+numberOFClass);
+
+        String myDaughterClass = "grade2";
+        System.out.println("My daughter reads in " + myDaughterClass);
+
+
+        boolean isRaining = true;
+        boolean isSnowing = true;
+
+        if (isRaining==false){
+            System.out.println("Student will go outside");
+        }else if (isSnowing==false){
+            System.out.println("Student will wear snowsuit and go outside");
+        }else{
+            System.out.println("Student will play indoor");
+        }
+
+
+        /**
+         * find how many friends mahdiya has
+         * List friends name starts with J
+         *
+         */
+
+
+
+
+
+
+
+
+        /**
+         * Create a method that will return names ends with a and b from the given array
+         * String[] friendsOfMyDaughter = {"Michelle", "Juliana", "Jacob", "Landon"};
+         *
+         */
+
+
+        String[] friendsOfMyDaughter = {"Michelle", "Juliana", "Jacob", "Landon"};
+
+        for (int i=0; i< friendsOfMyDaughter.length; i++){
+            if (friendsOfMyDaughter[i].toLowerCase().endsWith("a".toLowerCase())
+                    || friendsOfMyDaughter[i].toLowerCase().endsWith("b".toLowerCase())){
+
+                System.out.println(friendsOfMyDaughter[i]);
+            }
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /**
+         * List first Letters of all names and make them upper case
+         */
+
+        String firstLetter = "";
+
+        for (int i=0; i< friendsOfMyDaughter.length; i++){
+            firstLetter = firstLetter +friendsOfMyDaughter[i].substring(0,1).toUpperCase()+",";
+        }
+
+        System.out.println(firstLetter);
+
+        /**
+         * Arrange friend list in reverse order
+         */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
