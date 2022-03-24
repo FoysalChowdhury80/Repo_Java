@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class Homework6 {
     public static void main(String[] args) {
+
+
         /**
          * Q1:
          * Create the abbreviation
@@ -20,6 +22,8 @@ public class Homework6 {
          *
          */
 
+
+
         System.out.println("\n.......Homework 6.........");
         System.out.println("\n.......01.........");
         String sentence1 = "happy birthday to you dear friend ";
@@ -31,6 +35,8 @@ public class Homework6 {
             abbreviation = abbreviation + words[i].substring(0,1).toUpperCase();
         }
         System.out.println("\nAbbreviation of the statement is: " + abbreviation);
+
+
 
         /**
          * Q2:
@@ -54,6 +60,8 @@ public class Homework6 {
         }
         System.out.println("\nReverse string is: " + reverse);
 
+
+
         /**
          * Q3:
          * Convert the String value in to Titlecase
@@ -64,6 +72,8 @@ public class Homework6 {
          * happy birTHday TO yOu -> Happy Birthday To You
          *
          */
+
+
 
         System.out.println("\n.......03.........");
 
@@ -80,6 +90,8 @@ public class Homework6 {
         System.out.println("\nThe titlecase is : " + titleCase);
 
 
+
+
         /**
          * Q4:
          * Find the minimum value from the given array
@@ -88,6 +100,7 @@ public class Homework6 {
          * int[] numbers = {1, 21, 87, 23};     -> 1
          * int[] numbers = {87, 23, 89, 0, 54, 23}; -> 0
          */
+
 
         System.out.println("\n.......04.........");
         int[] numbers = {87, 23, 89, 0, 54, 23};
