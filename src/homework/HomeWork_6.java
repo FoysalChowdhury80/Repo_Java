@@ -101,11 +101,17 @@ public class HomeWork_6 {
 
 
         System.out.println("\n.......04.........");
+
+
         int[] numbers = {87, 23, 89, 0, 54, 23};
+
+
         int min = numbers[0];
 
         for (int i= 0; i<numbers.length; i++){
+
             if (numbers[i]< min){
+
                 min = numbers[i];
             }
         }
